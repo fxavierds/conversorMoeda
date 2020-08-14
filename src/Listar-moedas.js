@@ -42,7 +42,7 @@ function ListarMoedas(){
         } else if (moeda1.descricao > moeda2.descricao) {
           return 1;
         }
-        return 0;
+        return 0; 
       }
 
       return MOEDAS.sort(compare).map(moeda =>
